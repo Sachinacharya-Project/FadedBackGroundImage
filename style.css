@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/*
+Key Style
+background: linear-gradient(93.22deg, #000000 5.75%, rgba(0, 0, 0, 0) 33.74%);
+*/
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+section div {
+  width: 70%;
+}
+
+section .text_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  padding: 60px 10px 0px 10px;
+  position: relative;
+}
+
+section .text_area h1 {
+  position: absolute;
+  width: 760px;
+  height: 107px;
+  left: 70px;
+  top: 130px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 84px;
+  color: #FFFFFF;
+  text-shadow: 0 0 20px #474747;
+  cursor: pointer;
+}
+
+section .text_area p {
+  position: absolute;
+  width: 452px;
+  height: 20px;
+  left: 70px;
+  top: 320px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-shadow: 0 0 20px #474747;
+  cursor: pointer;
+}
+
+section .background {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(93.22deg, #000000 5.75%, rgba(0, 0, 0, 0) 33.74%), url("./image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=style.css.map */
