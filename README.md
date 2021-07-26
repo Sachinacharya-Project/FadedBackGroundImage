@@ -1,4 +1,4 @@
-# FadedBackGroundImage
+# Faded Background Image
 Just simple background image blended with the background color
 _____________________________________________________________________________
 ## Key Style
